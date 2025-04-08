@@ -2,7 +2,7 @@
 
 ## The First AMM-Based Decentralized Exchange on the Kaspa Ecosystem
 
-_Version 2.0_
+_Version 3.0_
 
 ## Abstract
 
@@ -171,7 +171,23 @@ Zealous Swap will implement an insurance fund as a protective mechanism for user
 - The fund can accommodate various tokens including KAS and Zealous Swap's native token
 - Provides an additional layer of security for users while simultaneously improving market depth
 
-## 9. Conclusion
+## 9. Flash Swaps
+
+Flash Swaps represent a groundbreaking feature of Zealous Swap, enabling users to temporarily borrow any token without upfront capital requirements. This powerful functionality allows traders to utilize borrowed tokens freely within a transaction, with the simple condition that they either pay for the borrowed tokens with corresponding pair tokens or return them with a minimal fee by the transaction's conclusion.
+
+Flash Swaps democratize sophisticated trading strategies that traditionally required substantial initial capital, such as arbitrage opportunities where price differences between Zealous Swap and other exchanges can be exploited for profit. Additionally, they streamline complex operations like leveraging positions on lending platforms, reducing multiple gas-intensive steps into a single efficient transaction.
+
+ By removing capital barriers and simplifying intricate DeFi interactions, Flash Swaps make advanced trading techniques accessible to all participants while simultaneously contributing to market efficiency through increased arbitrage activity.
+
+## 10. Modular-Fee Engine
+
+The Modular-Fee Engine represents a cornerstone innovation of Zealous Swap, designed to optimize trading efficiency across diverse token ecosystems. This sophisticated system transcends the limitations of fixed-fee models by implementing adaptable fee tiers customized to the specific characteristics and volatility profiles of different token pairs.
+
+Particularly beneficial for stablecoin trading, where price movements tend to be more constrained, the engine enables significantly reduced fees—as low as 0.05% standard and 0.03% discounted for stable pools, compared to 0.3% and 0.2% respectively for volatile token pairs.
+
+This granular approach to fee structuring not only enhances capital efficiency and reduces slippage but also creates deeper liquidity pools that benefit all ecosystem participants. With future capabilities including DAO governance integration and dynamic fee adjustments based on real-time market conditions, the Modular-Fee Engine establishes Zealous Swap as a trading platform that continuously evolves to meet the nuanced demands of DeFi traders while maintaining optimal liquidity provider incentives.
+
+## 11. Conclusion
 
 Zealous Swap represents the next evolution in decentralized exchange design, thoughtfully optimized for the emerging Kaspa ecosystem. By implementing a strategic V2 architecture enhanced with innovative NFT-based fee mechanics through our partnership with Nacho, we create a platform that balances immediate usability with long-term sustainability.
 
@@ -181,7 +197,7 @@ As the Kaspa ecosystem grows, Zealous Swap will evolve alongside it, maintaining
 
 Join us in building the financial foundation of the Kaspa ecosystem.
 
-## 10. Team
+## 12. Team
 
 Zealous Swap is built by a dedicated team with experience in blockchain and decentralized finance. Led by Louis Saad and Ramy Lahoud, we are focused on creating a decentralized exchange that supports the growth of the Kaspa ecosystem.
 
